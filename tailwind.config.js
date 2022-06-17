@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        marker: "'Permanent Marker', cursive",
+        shadowsIntoLight: "'Shadows Into Light', cursive",
+        karla: "'Karla', sans-serif",
       },
     },
   },
