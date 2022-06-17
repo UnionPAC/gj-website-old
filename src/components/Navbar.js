@@ -38,9 +38,9 @@ export const Navbar = () => {
       {}
       <div onClick={handleNav} className="block md:hidden">
         {nav ? (
-          <AiOutlineClose size={25} className="fixed top-8 right-6" />
+          <AiOutlineClose size={25} className="top-8 right-6" />
         ) : (
-          <AiOutlineMenu size={25} className="fixed top-8 right-6" />
+          <AiOutlineMenu size={25} className="top-8 right-6" />
         )}
       </div>
 
