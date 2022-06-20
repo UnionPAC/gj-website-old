@@ -1,15 +1,20 @@
 import React from "react";
 import lonelyGhost from "../imgs/lonelyghost.png";
 import bubbles from "../imgs/bubbles.png";
-import mns from '../imgs/mns.png'
+import mns from "../imgs/mns.png";
 
 export const Portfolio = () => {
   return (
-    <div id="portfolio" className="flex flex-col items-center font-karla p-4">
-      <h3 className="mt-4 text-3xl mb-8 md:text-4xl ">🗂 Portfolio</h3>
+    <div id="portfolio" className="flex flex-col items-center font-karla p-10">
+      <h3 className="mt-8 text-3xl font-medium mb-4">🗂 Portfolio</h3>
+      <p className="text-center text-[16px] p-4 max-w-[750px]">
+        I've built a lot of things in the blockchain space from NFT games to
+        DeFi applications like a staking app. Here are just a few of the project
+        i've built!
+      </p>
       <ul className="flex flex-col justify-center md:flex-row md:flex-wrap">
         {/* Card 1 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[300px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
           <div>
             <img src={lonelyGhost} alt="Lonely Ghost NFT Collection" />
           </div>
@@ -30,7 +35,7 @@ export const Portfolio = () => {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[300px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
           <div>
             <img src={bubbles} alt="Bubbles of Polygon NFT Collection" />
           </div>
@@ -52,14 +57,17 @@ export const Portfolio = () => {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[300px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
           <div>
             <img src={mns} alt="Mango Name Service (MNS)" />
           </div>
           <div className="flex flex-col items-center">
-            <h3 className="text-center text-2xl mt-6 p-4">Mango Name Service (MNS)</h3>
+            <h3 className="text-center text-2xl mt-6 p-4">
+              Mango Name Service (MNS)
+            </h3>
             <p className="text-[15px] p-4">
-              A project inspired by Ethereum Name Service (ENS). Mint your .mango domain on the Polygon Mumbai testnet now!
+              A project inspired by Ethereum Name Service (ENS). Mint your
+              .mango domain on the Polygon Mumbai testnet now!
             </p>
             <div className="">
               <a href="https://dns-dapp.vercel.app/">

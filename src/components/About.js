@@ -4,7 +4,7 @@ import coverImg from "../imgs/cover.jpeg";
 export const About = () => {
   return (
     <div id="about" className="flex flex-col items-center p-4 font-karla">
-      <h3 className="md:text-4xl mt-4 text-3xl">👉 About Me</h3>
+      <h3 className="md:text-3xl font-medium mt-4 text-3xl">👉 About Me</h3>
       <div className="md:max-w-[800px]">
         <img src={coverImg} alt="Me hiking at Lake Louise 🇨🇦" className="p-6 md:max-w-[600px] mx-auto" />
         <p className=" p-6 leading-8 text-[14px] md:text-[16px] tracking-wider">

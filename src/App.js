@@ -1,7 +1,8 @@
 import { Navbar } from "./components/Navbar";
 import { Showcase } from "./components/Showcase";
 import { About } from "./components/About";
-import { Portfolio } from './components/Portfolio'
+import { Portfolio } from "./components/Portfolio";
+import { Blog } from "./components/Blog";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Showcase />
       <About />
       <Portfolio />
+      <Blog />
     </div>
   );
 }

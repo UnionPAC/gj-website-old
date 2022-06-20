@@ -38,16 +38,16 @@ export const Navbar = () => {
       {}
       <div onClick={handleNav} className="block md:hidden">
         {nav ? (
-          <AiOutlineClose size={25} className="top-8 right-6" />
+          <AiOutlineClose size={25} className="fixed top-8 right-6" />
         ) : (
-          <AiOutlineMenu size={25} className="top-8 right-6" />
+          <AiOutlineMenu size={25} className="absolute top-8 right-6" />
         )}
       </div>
 
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[70%] h-full bg-[#000300] text-white ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[75%] h-full bg-[#000300] text-white ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
@@ -71,7 +71,7 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <div className="fixed bottom-4 w-[60%] p-2">
-            <p className="text-xl">👻 ⚡️</p>
+            <p className="text-2xl">👻 ⚡️</p>
             <p className="text-[13px] italic">Website created by Geoff Jamieson</p>
           </div>
         </ul>
