@@ -6,7 +6,7 @@ import mns from "../imgs/mns.png";
 export const Portfolio = () => {
   return (
     <div id="portfolio" className="flex flex-col items-center font-karla p-4 md:p-8">
-      <h3 className="mt-8 text-3xl mb-8 font-medium">🗂 portfolio</h3>
+      <h3 className="mt-8 text-3xl mb-8 font-medium">Portfolio</h3>
       <p className="text-center text-[15px] md:text-[16px] pt-2 mb-6 max-w-[750px]">
         I've built a lot of things in the blockchain space ranging from NFT games to
         DeFi applications like a DeFi staking app. Here are just a few of the project
@@ -15,7 +15,7 @@ export const Portfolio = () => {
       <p className="italic pb-4 text-sm text-center">Note: Check my Github profile below for more projects</p>
       <ul className="flex flex-col justify-center md:flex-row md:flex-wrap">
         {/* Card 1 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4 shadow-lg">
           <div>
             <img src={lonelyGhost} alt="Lonely Ghost NFT Collection" />
           </div>
@@ -36,7 +36,7 @@ export const Portfolio = () => {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4 shadow-lg">
           <div>
             <img src={bubbles} alt="Bubbles of Polygon NFT Collection" />
           </div>
@@ -58,7 +58,7 @@ export const Portfolio = () => {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4">
+        <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4 shadow-lg">
           <div>
             <img src={mns} alt="Mango Name Service (MNS)" />
           </div>

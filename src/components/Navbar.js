@@ -38,7 +38,10 @@ export const Navbar = () => {
       {}
       <div onClick={handleNav} className="block md:hidden">
         {nav ? (
-          <AiOutlineClose size={25} className="fixed top-8 right-6" />
+          <AiOutlineClose
+            size={25}
+            className="fixed top-8 right-6 bg-black text-white rounded"
+          />
         ) : (
           <AiOutlineMenu size={25} className="absolute top-8 right-6" />
         )}
@@ -47,7 +50,7 @@ export const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[75%] h-full bg-[#000300] text-white ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[80%] h-full bg-[#000300] text-white ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
@@ -56,23 +59,60 @@ export const Navbar = () => {
         </h1>
         <ul className="font-karla text-center mx-8">
           <li className="p-6 border-b-2 border-gray-800">
-            <a href="#about">About</a>
+            <a
+              onClick={() => {
+                setNav(!nav);
+              }}
+              href="#about"
+            >
+              About
+            </a>
           </li>
           <li className="p-6 border-b-2 border-gray-800">
-            <a href="#portfolio">Portfolio</a>
+            <a
+              onClick={() => {
+                setNav(!nav);
+              }}
+              href="#portfolio"
+            >
+              Portfolio
+            </a>
           </li>
           <li className="p-6 border-b-2 border-gray-800">
-            <a href="#blog">Blog</a>
+            <a
+              onClick={() => {
+                setNav(!nav);
+              }}
+              href="#blog"
+            >
+              Blog
+            </a>
           </li>
           <li className="p-6 border-b-2 border-gray-800">
-            <a href="#interests">Interests</a>
+            <a
+              onClick={() => {
+                setNav(!nav);
+              }}
+              href="#interests"
+            >
+              Interests
+            </a>
           </li>
           <li className="p-6 border-b-2 border-gray-800">
-            <a href="#contact">Contact</a>
+            <a
+              onClick={() => {
+                setNav(!nav);
+              }}
+              href="#contact"
+            >
+              Contact
+            </a>
           </li>
           <div className="fixed bottom-4 w-[60%] p-2">
             <p className="text-2xl">👻 ⚡️</p>
-            <p className="text-[13px] italic">Website created by Geoff Jamieson</p>
+            <p className="text-[13px] italic">
+              Website created by Geoff Jamieson
+            </p>
           </div>
         </ul>
       </div>

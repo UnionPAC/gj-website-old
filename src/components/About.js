@@ -4,11 +4,11 @@ import coverImg from "../imgs/cover.jpeg";
 export const About = () => {
   return (
     <div id="about" className="flex flex-col items-center p-4 md:p-8 font-karla">
-      <h3 className="text-3xl mt-4 font-medium pt-4 pb-10">👉 about me</h3>
+      <h3 className="text-3xl mt-4 font-medium pt-4 pb-10">About</h3>
       <div className="md:max-w-[800px]">
-        <img src={coverImg} alt="Me hiking at Lake Louise 🇨🇦" className="md:max-w-[600px] mb-2 mx-auto border-2 border-gray-200" />
+        <img src={coverImg} alt="Me hiking at Lake Louise 🇨🇦" className="md:max-w-[600px] mb-4 mx-auto shadow" />
         <p className=" p-6 leading-8 text-[14px] md:text-[16px] tracking-wider">
-          I went to school for business/finance, but after graduating realized
+          I went to school for business/ finance, but after graduating realized
           that I was mostly interested in building and creating things! I built a
           startup called Koji Street, which was a marketplace for independent
           fashion designers and artists. I worked on that for about 1 1/2 years

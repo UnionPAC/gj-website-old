@@ -4,6 +4,8 @@ import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Blog } from "./components/Blog";
 
+import { Footer } from "./components/Footer";
+
 function App() {
   return (
     <div>
@@ -12,6 +14,7 @@ function App() {
       <About />
       <Portfolio />
       <Blog />
+      <Footer />
     </div>
   );
 }
