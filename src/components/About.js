@@ -3,10 +3,10 @@ import coverImg from "../imgs/cover.jpeg";
 
 export const About = () => {
   return (
-    <div id="about" className="flex flex-col items-center p-4 font-karla">
-      <h3 className="md:text-3xl font-medium mt-4 text-3xl">👉 About Me</h3>
+    <div id="about" className="flex flex-col items-center p-4 md:p-8 font-karla">
+      <h3 className="text-3xl mt-4 font-medium pt-4 pb-10">👉 about me</h3>
       <div className="md:max-w-[800px]">
-        <img src={coverImg} alt="Me hiking at Lake Louise 🇨🇦" className="p-6 md:max-w-[600px] mx-auto" />
+        <img src={coverImg} alt="Me hiking at Lake Louise 🇨🇦" className="md:max-w-[600px] mb-2 mx-auto border-2 border-gray-200" />
         <p className=" p-6 leading-8 text-[14px] md:text-[16px] tracking-wider">
           I went to school for business/finance, but after graduating realized
           that I was mostly interested in building and creating things! I built a
