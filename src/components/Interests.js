@@ -12,7 +12,7 @@ export const Interests = () => {
   return (
     <div
       id="interests"
-      className="flex flex-col items-center font-karla p-4 md:p-8 mb-20"
+      className="flex flex-col items-center font-karla p-4 md:p-8 mb-[150px]"
     >
       <h3 className="mt-8 text-3xl mb-4 font-medium">Interests</h3>
       <p className="text-center text-[15px] md:text-[16px] pt-2 mb-6 max-w-[750px]">
