@@ -28,7 +28,7 @@ export const Navbar = () => {
           <a href="#blog">Blog</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#interest">Interests</a>
+          <a href="#interests">Interests</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
           <a href="#contact">Contact</a>

@@ -7,7 +7,7 @@ export const Portfolio = () => {
   return (
     <div id="portfolio" className="flex flex-col items-center font-karla p-4 md:p-8">
       <h3 className="mt-8 text-3xl mb-8 font-medium">Portfolio</h3>
-      <p className="text-center text-[15px] md:text-[16px] pt-2 mb-6 max-w-[750px]">
+      <p className="text-center text-[15px] md:text-[16px] pt-2 mb-6 max-w-[700px]">
         I've built a lot of things in the blockchain space ranging from NFT games to
         DeFi applications like a DeFi staking app. Here are just a few of the project
         i've built.

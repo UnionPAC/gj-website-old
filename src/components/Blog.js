@@ -22,7 +22,7 @@ export const Blog = () => {
   return (
     <div id="blog" className="flex flex-col items-center font-karla p-4 md:p-8">
       <h3 className="mt-8 text-3xl mb-4 font-medium">Blog</h3>
-      <p className="text-center text-[15px] md:text-[16px] pt-4 max-w-[750px]">
+      <p className="text-center text-[15px] md:text-[16px] pt-4 max-w-[700px]">
         I like writing about things that I like 🤷‍♀️ check em' out if you're
         interested!
       </p>
