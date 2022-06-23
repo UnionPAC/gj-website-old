@@ -21,7 +21,7 @@ export const About = () => {
           order to build smart contracts. So far, I have mainly built for EVM
           based chains like Ethereum testnets, mainnet, Polygon, etc... Right
           now I am focused on learning and building as much as possible in the
-          CBW space because I want to be apart of building the future!
+          CBW space because I want to be a part of building the future!
         </p>
       </div>
     </div>
