@@ -41,7 +41,7 @@ export const Blog = () => {
                   {moment(article.pubDate).format("dddd, MMMM Do YYYY")}
                 </div>
                 <h3 className="font-medium text-lg md:text-2xl py-2">{article.title}</h3>
-                <p className="">{article.description.slice(100, 200)}</p>
+                <p className="max-w-[650px]">{article.description.slice(99, 220)}{" ..."}</p>
               </div>
               <div className="w-[100px] h-[100px] p-2 md:w-[115px] md:h-[115px]">
                 <img
