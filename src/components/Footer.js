@@ -13,7 +13,7 @@ export const Footer = () => {
         <a href="https://medium.com/@geoff_jamieson">
           <i className="fa-brands fa-medium px-2 md:px-6 hover:scale-110" />
         </a>
-        <a href="https://www.linkedin.com/in/geoff-jamieson-815175216/">
+        <a href="https://www.linkedin.com/in/geoff-jamieson-4b1b94255/">
           <i className="fa-brands fa-linkedin px-2 md:px-6 hover:scale-110" />
         </a>
         <a href="https://twitter.com/unionpac_">
