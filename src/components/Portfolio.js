@@ -1,5 +1,5 @@
 import React from "react";
-import nftMarketplace from "../imgs/nft-marketplace.png";
+import lonelyGhosts from "../imgs/lonelyghost.png";
 import smartLottery from "../imgs/smart-lottery.png";
 import todoList from "../imgs/todo-list.png";
 
@@ -29,17 +29,17 @@ export const Portfolio = () => {
         {/* Card 1 */}
         <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4 shadow-lg">
           <div>
-            <img src={nftMarketplace} alt="NFT Marketplace" />
+            <img src={lonelyGhosts} alt="Lonely Ghosts NFT" />
           </div>
           <div className="flex flex-col items-center">
-            <h3 className="text-center text-2xl mt-6">NFT Marketplace</h3>
-            <p className="text-[15px] p-4 text-center">
-              A place to buy and sell your favourite NFT's .. sign up and start
-              listing NFTs now!
+            <h3 className="text-center text-2xl mt-6">Lonely Ghosts NFT</h3>
+            <p className="text-[15px] p-6 text-center">
+              A collection of 1000 lil' lonely ghosts. I created the art myself
+              using Illustrator and Hashlips art engine.
             </p>
             <div className="">
               <a
-                href="https://nextjs-nft-marketplace-the-graph.vercel.app/"
+                href="https://www.lonelyghosts.xyz/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,9 +57,9 @@ export const Portfolio = () => {
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-center text-2xl mt-6">Smart Lottery</h3>
-            <p className="text-[15px] p-4 text-center">
+            <p className="text-[15px] p-6 text-center">
               A decentralized smart lottery that picks a random winner every
-              hour, forever!
+              hour, as long as there are participants, forever!
             </p>
             <div className="">
               <a
@@ -80,7 +80,7 @@ export const Portfolio = () => {
             <img src={todoList} alt="Mango Name Service (MNS)" />
           </div>
           <div className="flex flex-col items-center">
-            <h3 className="text-center text-2xl mt-6 p-4">Web3 To-do List</h3>
+            <h3 className="text-center text-2xl mt-6">Web3 To-do List</h3>
             <p className="text-[15px] p-4 text-center">
               A classic to-do list but with a web3 twist. Has all create, read,
               update and delete functionality.
