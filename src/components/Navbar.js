@@ -19,19 +19,19 @@ export const Navbar = () => {
 
       <ul className="hidden font-karla text-[17px] md:flex">
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200">
-          <a href="#about">About</a>
+          <a href="#about">about</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">portfolio</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#blog">Blog</a>
+          <a href="#blog">blog</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#interests">Interests</a>
+          <a href="#interests">interests</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#contact">Contact</a>
+          <a href="#contact">contact</a>
         </li>
       </ul>
 

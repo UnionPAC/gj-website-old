@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col md:flex-row-reverse md:justify-around  justify-center items-center bg-[#030303] py-6 text-white pb-8 md:pb-4"
+      className="flex flex-col md:flex-row-reverse md:justify-around  justify-center items-center bg-[#030303] py-4 text-white pb-8 md:pb-4"
     >
       <ul className="text-3xl pt-4 pb-10 md:pb-6">
         <a href="https://github.com/UnionPAC">
@@ -21,7 +21,7 @@ export const Footer = () => {
         </a>
       </ul>
       <div className="flex justify-center items-center">
-        <p className="text-[12px] lg:text-[14px] mb-2 md:mb-0">
+        <p className="text-[12px] lg:text-[15px] mb-2 md:mb-0 tracking-wide">
           Website built by Geoff Jamieson
         </p>
       </div>

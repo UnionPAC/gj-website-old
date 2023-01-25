@@ -15,16 +15,13 @@ export const Interests = () => {
       className="flex flex-col items-center font-karla p-4 md:p-8 mb-[150px]"
     >
       <h3 className="mt-8 text-3xl mb-4 font-medium">Interests</h3>
-      <p className="text-center text-[15px] md:text-[16px] pt-2 mb-6 max-w-[750px]">
-        I spend a lot of time keeping up with and learning in the crypto space,
-        but when i'm not doing that, here are some things I like doing for fun.
-      </p>
+      <p>Some of my favourite things to do!</p>
       <ul className="text-center my-4 max-w-[700px]">
         <li className="m-4 py-2 md:py-3 md:mb-6 px-8 md:px-20 bg-[#02C39A] text-white rounded-full">
           Climbing
         </li>
         <li className="m-4 py-2 md:py-3 md:mb-6 px-8 md:px-20 bg-[#00A896] text-white rounded-full">
-          Travelling
+          Traveling
         </li>
         <li className="m-4 py-2 md:py-3 md:mb-6 px-8 md:px-20 bg-[#028090] text-white rounded-full">
           Reading
@@ -38,13 +35,13 @@ export const Interests = () => {
           <span className="font-medium text-[17px] mr-2">
             📚 Favourite recent read:{" "}
           </span>
-          Killing Commendatore <span className="italic">(Haruki Murakami)</span>
+          1Q84 <span className="italic">(Haruki Murakami)</span>
         </li>
         <li className="py-4">
           <span className="font-medium text-[17px] mr-2">
             🎧 What i'm jamming rn:{" "}
           </span>
-          All Them Witches {"&"} Modest Mouse{" "}
+          King Buffalo {"&"} Clairo{" "}
         </li>
         <li className="py-4">
           <span className="font-medium text-[17px] mr-2">
