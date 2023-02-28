@@ -25,7 +25,7 @@ export const Navbar = () => {
           <a href="#portfolio">portfolio</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="#blog">blog</a>
+          <a href="https://blog.geoffjamieson.com/" target='_blank' rel="noreferrer">blog</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
           <a href="#interests">interests</a>
