@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import resume from '../geoff_jamieson-resume.pdf'
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,13 +26,24 @@ export const Navbar = () => {
           <a href="#portfolio">portfolio</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href="https://blog.geoffjamieson.com/" target='_blank' rel="noreferrer">blog</a>
+          <a
+            href="https://blog.geoffjamieson.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            blog
+          </a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
           <a href="#interests">interests</a>
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
           <a href="#contact">contact</a>
+        </li>
+        <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
+          <a href={resume} target="_blank">
+            resume
+          </a>
         </li>
       </ul>
 
