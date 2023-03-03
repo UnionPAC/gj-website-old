@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import resume from '../geoff_jamieson-resume.pdf'
+import resume from '../geoff-resume.pdf'
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
