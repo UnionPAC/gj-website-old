@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import resume from '../geoff-resume.pdf'
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -39,11 +38,6 @@ export const Navbar = () => {
         </li>
         <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
           <a href="#contact">contact</a>
-        </li>
-        <li className="p-3 m-3 border-b-4 border-transparent hover:border-b-gray-200 tracking-wider">
-          <a href={resume} target="_blank">
-            resume
-          </a>
         </li>
       </ul>
 
@@ -120,12 +114,6 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          <div className="fixed bottom-4 w-[60%] p-2">
-            <p className="text-2xl">👻 ⚡️</p>
-            <p className="text-[13px] italic">
-              Website created by Geoff Jamieson
-            </p>
-          </div>
         </ul>
       </div>
     </div>

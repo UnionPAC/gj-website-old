@@ -1,5 +1,5 @@
 import React from "react";
-import lonelyGhosts from "../imgs/lonelyghost.png";
+import kicks from "../imgs/kicks.png";
 import habitTracker from "../imgs/habit-tracker.png";
 import cryptoTracker from "../imgs/crypto-tracker.png";
 
@@ -29,22 +29,33 @@ export const Portfolio = () => {
         {/* Card 1 */}
         <div className="mx-auto border-solid- border-2 m-4 max-w-[350px] md:mx-4 shadow-lg">
           <div>
-            <img src={lonelyGhosts} alt="Lonely Ghosts NFT" />
+            <img src={kicks} alt="KICKS E-commerce Shop" />
           </div>
           <div className="flex flex-col items-center">
-            <h3 className="text-center text-2xl mt-6">Lonely Ghosts NFT</h3>
+            <h3 className="text-center text-2xl mt-6">
+              KICKS: E-Commerce Shop
+            </h3>
             <p className="text-[15px] p-6 text-center">
-              A collection of 1000 lil' lonely ghosts. I created the art myself
-              using Illustrator and Hashlips art engine.
+              A mock e-commerce platform for sneaker nerds! Built with Next.js,
+              Material UI, Stripe for payments and Strapi for the backend.
             </p>
             <div className="">
               <a
-                href="https://www.lonelyghosts.xyz/"
+                href="https://nextjs-kicks-ecommerce.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button className="bg-blue-500 rounded px-4 py-2 my-4 mb-10 text-white">
                   View Project
+                </button>
+              </a>
+              <a
+                href="https://github.com/UnionPAC/nextjs-kicks-ecommerce"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-gray-400 rounded px-4 py-2 my-4 mb-10 ml-5 text-white">
+                  View Code
                 </button>
               </a>
             </div>
@@ -71,6 +82,15 @@ export const Portfolio = () => {
                   View Project
                 </button>
               </a>
+              <a
+                href="https://github.com/UnionPAC/habit-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-gray-400 rounded px-4 py-2 my-4 mb-10 ml-5 text-white">
+                  View Code
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -93,6 +113,15 @@ export const Portfolio = () => {
               >
                 <button className="bg-blue-500 rounded px-4 py-2 my-6 mb-10 text-white">
                   View Project
+                </button>
+              </a>
+              <a
+                href="https://github.com/UnionPAC/crypto-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-gray-400 rounded px-4 py-2 my-4 mb-10 ml-5 text-white">
+                  View Code
                 </button>
               </a>
             </div>
